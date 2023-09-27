@@ -1,0 +1,46 @@
+.container-login {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.container-detail{
+  background-color: #010101;
+}
+
+.container-form {
+  background-color: #13161c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-form h2 {
+  color: #f2f2f2;
+}
+
+.body-form {
+  width: 100%;
+  padding: 4rem;
+}
+
+.body-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.body-form form button {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  background-color: #f2f2f2;
+}
